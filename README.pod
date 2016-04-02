@@ -1,0 +1,14 @@
+=encoding utf8
+
+=head1 About
+
+This repository contains a test case for a bug in the latest git version
+of GNU grep as well as grep-2.24-1.mga6 . To reproduce put grep in the path
+and type:
+
+    bash -x Test.bash
+
+As can be seen, there's a disrepancy in the matching between C<--text>/C<-a>
+and not such matches, and a perl regex match is on the side of the latter.
+
+=cut
