@@ -11,4 +11,8 @@ and type:
 As can be seen, there's a disrepancy in the matching between C<--text>/C<-a>
 and not such matches, and a perl regex match is on the side of the latter.
 
+=head2 Link to bug report:
+
+L<http://lists.gnu.org/archive/html/bug-grep/2016-04/msg00000.html>
+
 =cut
